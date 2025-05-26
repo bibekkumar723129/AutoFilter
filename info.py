@@ -18,9 +18,9 @@ def is_enabled(value, default):
 # Bot Information Configuration
 # ============================
 SESSION = environ.get('SESSION', 'Media_search')
-API_ID = int(environ.get('API_ID', '22582906'))
-API_HASH = environ.get('API_HASH', 'e3096dde3e27c72a50e0e53d8ab23d6a')
-BOT_TOKEN = environ.get('BOT_TOKEN', "7699985916:AAEVLryyLP-N13Z6fMeOqj8RbaMa9__p6nY")
+API_ID = int(environ.get('API_ID', ' '))
+API_HASH = environ.get('API_HASH', ' ')
+BOT_TOKEN = environ.get('BOT_TOKEN', " ")
 
 # ============================
 # Bot Settings Configuration
@@ -67,7 +67,7 @@ APPROVED = environ.get("APPROVED_WELCOME", "on").lower()
 # ============================
 # MongoDB Configuration
 # ============================
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://mahatobibek221034:FA1aFnrrZJH1j65U@cluster0.qalogrz.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+DATABASE_URI = environ.get('DATABASE_URI', " ")
 DATABASE_URI2 = environ.get('DATABASE_URI2', "")
 DATABASE_NAME = environ.get('DATABASE_NAME', "yato")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
